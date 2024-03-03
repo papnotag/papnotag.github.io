@@ -1,0 +1,92 @@
+$kolor: black;
+$kolor2: rgba(140, 140, 140, 30%);
+$kolor3: rgba(246, 116, 32, 20%);
+$kolor4: rgba(47, 205, 252, 20%);
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url("Cinzel-VariableFont_wght.ttf") format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainpage{
+    background-color: $kolor;
+    width: auto;
+    height: 100vh;
+    background-image: linear-gradient(to right, $kolor3, transparent ,$kolor4);
+
+    h1{
+        position: absolute;
+        text-align: center;
+        color: $kolor2;
+        margin-left: auto;
+        left: 0;
+        margin-right: auto;
+        right: 0;
+        top: 44vh;
+        font-family: Cinzel, serif;
+        font-weight: 500;
+    }
+
+    .kolo{
+        position:absolute;
+        bottom: -2.8vh;
+        margin-left:auto;
+        margin-right:auto;
+        left:0;
+        right:0;
+        width: 5vh;
+        height: 5vh;
+        border-radius:5vh;
+        box-shadow:0px 0px 10px 5px $kolor2, 0px 0px 10px 5px $kolor2;
+        }
+
+    nav{
+        background-color: $kolor2;
+        width: auto;
+        height: 6vh;
+        display: flex;
+ 
+        img{
+
+            position: relative;
+            top: 0.5vh;
+            height: 5vh;
+            left: 7.3%;
+            margin-right: 15vh;
+        }
+
+       
+
+        .navelement{
+            position: relative;
+            height: 4vh;
+            margin-left: 5vh;
+            padding: 1vh;
+            padding-bottom: 0vh;
+            top: 0.5vh;
+            background-color: transparent;
+            transition: 1s;
+
+
+            &:hover{
+                background-color: $kolor2;
+                cursor: pointer;
+            }
+
+            h2{
+                font-size: 2.5vh;
+            }
+            
+           
+        }
+        
+    }
+}
+
+
+
