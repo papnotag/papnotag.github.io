@@ -3,6 +3,7 @@
   src: url("Cinzel-VariableFont_wght.ttf") format("truetype");
 }
 * {
+  user-select: none;
   margin: 0;
   padding: 0;
 }
