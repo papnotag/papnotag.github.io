@@ -1,0 +1,20 @@
+$kolor: black;
+$kolor2: rgba(140, 140, 140, 30%);
+$kolor3: rgba(246, 116, 32, 20%);
+$kolor4: rgba(47, 205, 252, 20%);
+
+
+body{
+    background-color: $kolor;
+    background-image: linear-gradient(to right, $kolor3, transparent ,$kolor4);
+}
+.a1{
+    color: white;
+    font-size: 25vh;
+}
+.a2{
+    border-radius: 5vh;
+    height: 10vh;
+    width: 25vh;
+    font-size: 5vh;
+}

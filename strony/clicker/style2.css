@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  background-image: linear-gradient(to right, rgba(246, 116, 32, 0.2), transparent, rgba(47, 205, 252, 0.2));
+}
+
+.a1 {
+  color: white;
+  font-size: 25vh;
+}
+
+.a2 {
+  border-radius: 5vh;
+  height: 10vh;
+  width: 25vh;
+  font-size: 5vh;
+}
+
+/*# sourceMappingURL=style2.css.map */
